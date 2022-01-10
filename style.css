@@ -1,0 +1,77 @@
+body {
+    text-align: center;
+
+}
+
+h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+#intro{
+    background-color: rgb(182, 220, 238);
+}
+
+#origami1{
+   background-color:lightcoral;
+}
+
+#contact_1{
+    background-color: cornflowerblue;
+}
+#contact_1 h3
+{
+    display: inline;
+}
+#contact_1 a
+{
+    color: white;
+    text-shadow: none;
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+.image{
+    width: 400px;
+    height: 250px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.menu{
+    list-style: none;
+    font-family: sans-serif;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
+.menu a{
+    color:black !important;
+}
+
+.link{
+    float: left;
+    color: black;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-size: 20px;
+
+}
+
+.link:hover{
+    background-color:lightpink;
+}
+
+html{
+    scroll-behavior: smooth;
+}
